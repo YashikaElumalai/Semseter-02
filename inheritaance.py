@@ -20,3 +20,6 @@ class Perks(Employee):
     def displayPerks(self):
         self.displayEmployeeInfo()
         print("Perks=",self.getSalary()+self.total)
+p=Perks()
+p.calculateSalary()
+p.dispalyPerks()
